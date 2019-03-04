@@ -1,0 +1,44 @@
+﻿<Window x:Class="WESUI2.Window2"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WESUI2"
+        mc:Ignorable="d"
+        Title="Window2" Height="450" Width="977.971"  xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+     TextElement.Foreground="{DynamicResource MaterialDesignBody}"
+     TextElement.FontWeight="Regular"
+     TextElement.FontSize="13"
+     TextOptions.TextFormattingMode="Ideal"
+     TextOptions.TextRenderingMode="Auto"
+     Background="{DynamicResource MaterialDesignPaper}"
+     FontFamily="{DynamicResource MaterialDesignFont}">
+    <materialDesign:ColorZone Mode="PrimaryDark" Padding="20" Height="421" Margin="0,0,0,-2">
+        <Grid Margin="-3,0,3,2" >
+            <TextBlock Text="Поиск:" Foreground="NavajoWhite" FontSize="20" Margin="67,13,795,346"/>
+            <TextBlock Text="Карта:" Foreground="NavajoWhite" FontSize="20" Margin="661,13,201,346"/>
+            <TextBlock Text="Дата" Margin="89,58,788,301"/>
+            <TextBlock Text="Магнитуда" Margin="54,80,782,281"/>
+            <TextBlock Text="Лимит" Margin="80,0,807,248" Height="18" VerticalAlignment="Bottom"/>
+            <TextBlock Text="Глубина Залегания" Margin="7,143,803,219"/>
+            <TextBlock Text="От" Margin="130,57,770,301"/>
+            <TextBlock Text="От" Margin="130,80,770,278"/>
+            <TextBlock Text="От" Margin="132,111,768,247"/>
+            <TextBlock Text="От" Margin="132,140,768,218"/>
+            <TextBlock Text="До" Margin="216,57,684,301"/>
+            <TextBlock Text="До" Margin="217,80,683,278"/>
+            <TextBlock Text="До" Margin="216,111,684,247"/>
+            <TextBlock Text="До" Margin="215,140,685,218"/>
+            <TextBlock Background="White" Margin="151,58,721,303"/>
+            <TextBlock Background="White" Margin="238,58,634,303"/>
+            <TextBlock Background="White" Margin="151,83,721,278"/>
+            <TextBlock Background="White" Margin="151,113,721,248"/>
+            <TextBlock Background="White" Margin="151,142,721,219"/>
+            <TextBlock Background="White" Margin="238,83,634,278"/>
+            <TextBlock Background="White" Margin="238,113,634,248"/>
+            <TextBlock Background="White" Margin="238,142,634,219"/>
+            <DataGrid HorizontalAlignment="Left" Height="202" Margin="3,176,0,0" VerticalAlignment="Top" Width="439"/>
+            <WebBrowser  Margin="473,40,6,4"/>
+        </Grid>
+    </materialDesign:ColorZone>
+</Window>
